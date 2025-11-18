@@ -2,7 +2,6 @@ import { addComment } from "../../api";
 import { useState, useEffect } from "react";
 import { IconButton, TextField } from "@mui/material";
 import { Send } from "@mui/icons-material";
-import { red } from "@mui/material/colors";
 
 export function PostComment(props) {
   const {
